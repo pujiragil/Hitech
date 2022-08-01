@@ -19,6 +19,10 @@ module.exports = {
       },
       screens: {
         'medium': '400px'
+      },
+      boxShadow: {
+        'phone': '8px 8px rgb(55 65 81)',
+        'tab': '16px 16px rgb(55 65 81)'
       }
     },
   },
