@@ -16,6 +16,9 @@ module.exports = {
       },
       inset: {
         '1300px': '1300px'
+      },
+      screens: {
+        'medium': '400px'
       }
     },
   },
