@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Sidebar = ({ active, toggle }) => {
   return (
-    <div onClick={toggle} className={`${active ? 'top-0' : '-top-[1300px]'} rounded-md z-40 cursor-pointer duration-700 absolute left-0  h-screen bg-white w-full md:hidden`}>
+    <div onClick={toggle} className={`${active ? 'top-0' : '-top-[1300px]'} rounded-md z-40 cursor-pointer duration-500 absolute left-0  h-screen bg-white w-full md:hidden`}>
       <ul className="w-full h-full flex flex-col justify-center items-center">
         <li onClick={toggle} className="text-zinc-900 flex justify-center items-center w-full w-full"><Link className="flex py-7 rounded text-base hover:bg-zinc-100 hover:text-zinc-700 ease-in-out duration-300 justify-center items-center w-11/12 text-center" to="/">Home</Link></li>
         <li onClick={toggle} className="text-zinc-900 flex justify-center items-center w-full w-full"><Link className="flex py-7 rounded text-base hover:bg-zinc-100 hover:text-zinc-700 ease-in-out duration-300 justify-center items-center w-11/12 text-center" to="about">About</Link></li>
