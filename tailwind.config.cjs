@@ -11,7 +11,8 @@ module.exports = {
     },
     extend: {
       height: {
-        'md': '90vh'
+        'md': '90vh',
+        'desk': '650px'
       },
       inset: {
         '1300px': '1300px'
