@@ -2,6 +2,7 @@ import CardSection from '../components/CardSection'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Section from '../components/Section'
+import Testimonial from '../components/Testimonial'
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Hero />
       <Section />
       <CardSection />
+      <Testimonial />
     </>
   )
 }
