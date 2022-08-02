@@ -1,4 +1,5 @@
 export const obj1 = {
+  order: 'order-2',
   primary: true,
   textColor: 'text-zinc-900',
   buttonText: 'text-white',
@@ -7,6 +8,7 @@ export const obj1 = {
 }
 
 export const obj2 = {
+  order: 'order-1',
   primary: false,
   textColor: 'text-white',
   buttonText: 'text-zinc-900',
@@ -16,6 +18,7 @@ export const obj2 = {
 }
 
 export const obj3 = {
+  order: 'order-3',
   primary: false,
   textColor: 'text-white',
   buttonText: 'text-zinc-900',
