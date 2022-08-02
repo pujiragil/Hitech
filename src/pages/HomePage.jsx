@@ -1,3 +1,4 @@
+import CardSection from '../components/CardSection'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Section from '../components/Section'
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <Section />
+      <CardSection />
     </>
   )
 }

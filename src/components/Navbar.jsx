@@ -36,7 +36,7 @@ const Navbar = () => {
         </ul>
         <ul className="hidden md:block md:flex md:justify-center md:items-center">
           <li><Link className="px-6 py-3 mr-4 border border-transparent hover:border-zinc-900 hover:rounded-full duration-300" to="login">Login</Link></li>
-          <li><Link className="px-6 py-3 bg-zinc-900 rounded-full text-white border border-transparent hover:bg-zinc-800 duration-300" to="register">Register</Link></li>
+          <li><Link className="px-6 py-3 bg-zinc-900 rounded-full text-white border border-transparent hover:bg-zinc-700 duration-300" to="register">Register</Link></li>
         </ul>
       </nav>
     </div>

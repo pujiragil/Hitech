@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       height: {
         'md': '90vh',
-        'desk': '650px'
+        'hero': '650px',
+        'desk': '730px'
       },
       inset: {
         '1300px': '1300px'
@@ -23,6 +24,9 @@ module.exports = {
       boxShadow: {
         'phone': '8px 8px rgb(55 65 81)',
         'tab': '16px 16px rgb(55 65 81)'
+      },
+      borderRadius: {
+        'large': '20px'
       }
     },
   },

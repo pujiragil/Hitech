@@ -10,7 +10,7 @@ const Section = () => {
             <button className="bg-zinc-900 text-base hover:bg-zinc-700 duration-300 font-bold w-fit text-white medium:px-10 px-9 medium:py-4 py-3 rounded-full drop-shadow-xl">See More</button>
           </div>
           <div className="flex relative sm:justify-end justify-center items-center">
-              <img className="relative grayscale cursor-pointer hover:grayscale-0 duration-300 lg:w-full sm:w-3/4 w-full sm:shadow-tab shadow-phone" src="https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80" alt="" />
+              <img className="relative grayscale cursor-pointer hover:grayscale-0 hover:shadow-none duration-300 lg:w-full sm:w-3/4 w-full sm:shadow-tab shadow-phone" src="https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80" alt="" />
           </div>
         </div>
       </div>
