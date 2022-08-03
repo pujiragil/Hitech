@@ -29,10 +29,10 @@ const Navbar = () => {
           <span className={`w-6 h-1 duration-300 my-1 ${active ? '-translate-y-2 origin-center -rotate-45' : ''} rounded bg-zinc-900 block md:hidden`}></span>
         </div>
         <ul className="list-none md:block md:flex md:items-center md:justify-center hidden">
-          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 duration-300" to="/">Home</Link></li>
-          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 duration-300" to="about">About</Link></li>
-          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 duration-300" to="contact">Contact</Link></li>
-          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 duration-300" to="profile">Profile</Link></li>
+          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 hover:shadow-md duration-300" to="/">Home</Link></li>
+          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 hover:shadow-md duration-300" to="about">About</Link></li>
+          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 hover:shadow-md duration-300" to="contact">Contact</Link></li>
+          <li><Link className="px-4 pb-1 hover:border-b hover:border-zinc-900 hover:shadow-md duration-300" to="profile">Profile</Link></li>
         </ul>
         <ul className="hidden md:block md:flex md:justify-center md:items-center">
           <li><Link className="px-6 py-3 mr-4 border border-transparent hover:border-zinc-900 hover:rounded-full duration-300" to="login">Login</Link></li>
