@@ -15,6 +15,9 @@ module.exports = {
         'hero': '650px',
         'desk': '730px'
       },
+      minHeight: {
+        'md': '90vh'
+      } ,
       inset: {
         '1300px': '1300px'
       },

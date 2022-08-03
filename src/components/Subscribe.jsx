@@ -11,8 +11,8 @@ const Subscribe = () => {
           </div>
           <div className="flex justify-between sm:justify-end w-full">
             <div className="sm:w-10/12 lg:w-full flex w-full justify-between border-2 border-white rounded-full">
-              <input className="bg-transparent text-white text-base truncate pl-8 rounded-full focus:outline-none focus:border-none" type="text" placeholder="isert your email..." />
-              <button className="bg-white text-zinc-900 m-1 p-4 rounded-full">Subscribe</button>
+              <input className="bg-transparent text-white w-full text-base truncate pl-8 rounded-full focus:outline-none focus:border-none" type="text" placeholder="isert your email..." />
+              <button className="bg-white text-zinc-900 m-1 p-4 rounded-full hover:bg-zinc-400 duration-300">Subscribe</button>
             </div>
           </div>
         </div>
