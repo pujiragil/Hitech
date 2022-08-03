@@ -1,6 +1,5 @@
 import CardSection from '../components/CardSection'
 import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
 import Section from '../components/Section'
 import Testimonial from '../components/Testimonial'
 import { obj1, obj2 } from '../components/fragments/secObj'
@@ -10,7 +9,6 @@ import Footer from '../components/Footer'
 const HomePage = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <Section {...obj1} />
       <CardSection />
