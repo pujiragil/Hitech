@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp, AiOutlineFacebook, AiOutlineGithub, AiOutlineYoutube
 const AboutPage = () => {
   return (
     <div className="container mx-auto px-6">
-      <div className="grid gap-4 justify-items-center content-center lg:grid-cols-2 grid-cols-1 lg:min-h-0 lg:h-desk min-h-md">
+      <div className="grid gap-4 justify-items-center content-center lg:grid-cols-2 grid-cols-1 lg:min-h-0 lg:h-hero min-h-md">
         <img className="hover:rotate-180 duration-700 ease-in-out cursor-pointer" src={AboutSvg} alt="about" />
         <div className="flex justify-center md:w-9/12 flex-col text-zinc-900 items-center font-open p-6 bg-white shadow-2xl mb-4 rounded-large">
           <h1 className="text-2xl mb-4 lg:mb-8">About Us</h1>
