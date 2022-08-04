@@ -4,7 +4,7 @@ export const obj1 = {
   textColor: 'text-zinc-900',
   buttonText: 'text-white',
   buttonBg: 'bg-zinc-900',
-  buttonHov: 'bg-zinc-700'
+  buttonHov: 'bg-zinc-700',
 }
 
 export const obj2 = {
@@ -14,7 +14,8 @@ export const obj2 = {
   buttonText: 'text-zinc-900',
   buttonBg: 'bg-white',
   textWhite: 'text-white',
-  buttonHov: 'bg-zinc-900 border-white'
+  buttonHov: 'bg-zinc-900 border-white',
+  buttonBorderHov: 'hover:border-white'
 }
 
 export const obj3 = {
@@ -24,5 +25,6 @@ export const obj3 = {
   buttonText: 'text-zinc-900',
   buttonBg: 'bg-white',
   textWhite: 'text-white',
-  buttonHov: 'bg-zinc-900 border-white'
+  buttonHov: 'bg-zinc-900 border-white',
+  buttonBorderHov: 'hover:border-white'
 }
